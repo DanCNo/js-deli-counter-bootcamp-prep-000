@@ -3,5 +3,12 @@ function takeANumber(currentLine, newName){
 }
 
 function nowServing(currentLine){
-  return currentLine.shift()
+  if(currentLine.length === 0) {
+    return 'There is nobody waiting to be served!';
+  } else {
+    return currentLine.shift();
+    
+  }
 }
+
+function 
