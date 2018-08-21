@@ -22,7 +22,7 @@ function currentLine(currentLineArray){
   
   else {
     for (var i = 0; i < currentLineArray.length; i++){
-    array.push(`${i+1}. ${currentLineArray[i]}`);
+    array.push(`${i+1}. ${currentLineArray[i]} `);
       }
     str = array.join();  
   }
