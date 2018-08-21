@@ -12,4 +12,22 @@ function nowServing(currentLineArray){
   }
 }
 
-function currentLine()
+function currentLine(currentLineArray){
+  var str = '';
+  var array = [];
+  
+  if (currentLineArray.length === 0) {
+    str = 'The line is currently empty.';
+  }
+  
+  else {
+    for (var i = 0; i < currentLineArray.length; i++){
+    array.push(`${i}. ${currentLineArray[i]}`);
+      }
+    str =   
+  }
+}
+  
+  
+  return `The line is currently: ${
+}
