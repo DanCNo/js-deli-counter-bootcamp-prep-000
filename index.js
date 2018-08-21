@@ -3,5 +3,5 @@ function takeANumber(currentLine, newName){
 }
 
 function nowServing(currentLine){
-  
+  return currentLine.shift()
 }
