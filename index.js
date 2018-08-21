@@ -7,7 +7,7 @@ function nowServing(currentLineArray){
   if(currentLineArray.length === 0) {
     return 'There is nobody waiting to be served!';
   } else {
-    return currentLineArray.shift();
+    return `Currently serving ${currentLineArray.shift()}.`;
     
   }
 }
@@ -24,10 +24,7 @@ function currentLine(currentLineArray){
     for (var i = 0; i < currentLineArray.length; i++){
     array.push(`${i}. ${currentLineArray[i]}`);
       }
-    str =   
+    str = array.join();  
   }
-}
-  
-  
-  return `The line is currently: ${
+  return str;
 }
