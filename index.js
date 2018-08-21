@@ -17,7 +17,7 @@ function currentLine(currentLineArray){
   var array = [];
   
   if (currentLineArray.length === 0) {
-    str = 'The line is currently empty.';
+    return 'The line is currently empty.';
   }
   
   else {
@@ -27,5 +27,5 @@ function currentLine(currentLineArray){
     str = array.join(', ');
     return `The line is currently: ${str}`;
   }
-  return `The line is currently: ${str}`;
+  //return `The line is currently: ${str}`;
 }
