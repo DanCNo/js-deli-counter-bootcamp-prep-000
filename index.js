@@ -26,5 +26,5 @@ function currentLine(currentLineArray){
       }
     str = array.join();  
   }
-  return str;
+  return `The line is currently: ${str}`;
 }
